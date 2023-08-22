@@ -57,20 +57,23 @@ class TabViewController: UITabBarController {
            self.tabBar.backgroundColor = UIColor.white
            self.tabBar.cornerRadius = 36
            self.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-           self.tabBar.backgroundColor = .white
-           self.tabBar.tintColor = .black
-           self.tabBar.unselectedItemTintColor = UIColor.yellow
+           self.tabBar.backgroundColor = .TabBarBGColor
+           self.tabBar.tintColor = .white
+           self.tabBar.unselectedItemTintColor = .appIconColor
            
-           // Remove the line
-           if #available(iOS 13.0, *) {
-               let appearance = self.tabBar.standardAppearance
-               appearance.shadowImage = nil
-               appearance.shadowColor = nil
-               self.tabBar.standardAppearance = appearance
-           } else {
-               self.tabBar.shadowImage = UIImage()
-               self.tabBar.backgroundImage = UIImage()
-           }
+           UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for:.selected)
+           UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.appIconColor], for:.normal)
+           
+//           // Remove the line
+//           if #available(iOS 13.0, *) {
+//               let appearance = self.tabBar.standardAppearance
+//               appearance.shadowImage = nil
+//               appearance.shadowColor = nil
+//               self.tabBar.standardAppearance = appearance
+//           } else {
+//               self.tabBar.shadowImage = UIImage()
+//               self.tabBar.backgroundImage = UIImage()
+//           }
        }
        
 //       private func addCustomTabBarView() {

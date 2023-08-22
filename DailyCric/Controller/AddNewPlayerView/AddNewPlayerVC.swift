@@ -45,7 +45,7 @@ class AddNewPlayerVC: UIViewController {
         slpImgView.path = UIBezierPath(roundedRect: pImgView.bounds,
                                       cornerRadius: pImgView.layer.cornerRadius).cgPath
         slpImgView.fillColor = UIColor.white.cgColor
-        slpImgView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slpImgView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slpImgView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slpImgView.shadowOpacity = 0.8
         slpImgView.shadowRadius = 2.8
@@ -56,7 +56,7 @@ class AddNewPlayerVC: UIViewController {
         slPNameView.path = UIBezierPath(roundedRect: pNameView.bounds,
                                       cornerRadius: pNameView.layer.cornerRadius).cgPath
         slPNameView.fillColor = UIColor.white.cgColor
-        slPNameView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPNameView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPNameView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPNameView.shadowOpacity = 0.8
         slPNameView.shadowRadius = 2.8
@@ -67,7 +67,7 @@ class AddNewPlayerVC: UIViewController {
         slPNickNameView.path = UIBezierPath(roundedRect: pNickNameView.bounds,
                                       cornerRadius: pNickNameView.layer.cornerRadius).cgPath
         slPNickNameView.fillColor = UIColor.white.cgColor
-        slPNickNameView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPNickNameView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPNickNameView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPNickNameView.shadowOpacity = 0.8
         slPNickNameView.shadowRadius = 2.8
@@ -78,7 +78,7 @@ class AddNewPlayerVC: UIViewController {
         slPBirthDayView.path = UIBezierPath(roundedRect: pBirthDayView.bounds,
                                       cornerRadius: pBirthDayView.layer.cornerRadius).cgPath
         slPBirthDayView.fillColor = UIColor.white.cgColor
-        slPBirthDayView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPBirthDayView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPBirthDayView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPBirthDayView.shadowOpacity = 0.8
         slPBirthDayView.shadowRadius = 2.8
@@ -89,7 +89,7 @@ class AddNewPlayerVC: UIViewController {
         slPTypeView.path = UIBezierPath(roundedRect: pTypeView.bounds,
                                       cornerRadius: pTypeView.layer.cornerRadius).cgPath
         slPTypeView.fillColor = UIColor.white.cgColor
-        slPTypeView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPTypeView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPTypeView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPTypeView.shadowOpacity = 0.8
         slPTypeView.shadowRadius = 2.8
@@ -100,7 +100,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBatsman.path = UIBezierPath(roundedRect: btnPBatsman.bounds,
                                       cornerRadius: btnPBatsman.layer.cornerRadius).cgPath
         slBtnPBatsman.fillColor = UIColor.white.cgColor
-        slBtnPBatsman.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBatsman.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBatsman.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBatsman.shadowOpacity = 0.8
         slBtnPBatsman.shadowRadius = 2.8
@@ -111,7 +111,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBowler.path = UIBezierPath(roundedRect: btnPBowler.bounds,
                                       cornerRadius: btnPBowler.layer.cornerRadius).cgPath
         slBtnPBowler.fillColor = UIColor.white.cgColor
-        slBtnPBowler.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBowler.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBowler.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBowler.shadowOpacity = 0.8
         slBtnPBowler.shadowRadius = 2.8
@@ -122,7 +122,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPAllRounder.path = UIBezierPath(roundedRect: btnPAllRounder.bounds,
                                           cornerRadius: btnPAllRounder.layer.cornerRadius).cgPath
         slBtnPAllRounder.fillColor = UIColor.white.cgColor
-        slBtnPAllRounder.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPAllRounder.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPAllRounder.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPAllRounder.shadowOpacity = 0.8
         slBtnPAllRounder.shadowRadius = 2.8
@@ -133,7 +133,7 @@ class AddNewPlayerVC: UIViewController {
         slPBatView.path = UIBezierPath(roundedRect: pBatView.bounds,
                                           cornerRadius: pBatView.layer.cornerRadius).cgPath
         slPBatView.fillColor = UIColor.white.cgColor
-        slPBatView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPBatView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPBatView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPBatView.shadowOpacity = 0.8
         slPBatView.shadowRadius = 2.8
@@ -144,7 +144,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBatRightHand.path = UIBezierPath(roundedRect: btnPBatRightHand.bounds,
                                           cornerRadius: btnPBatRightHand.layer.cornerRadius).cgPath
         slBtnPBatRightHand.fillColor = UIColor.white.cgColor
-        slBtnPBatRightHand.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBatRightHand.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBatRightHand.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBatRightHand.shadowOpacity = 0.8
         slBtnPBatRightHand.shadowRadius = 2.8
@@ -155,7 +155,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBatLeftHand.path = UIBezierPath(roundedRect: btnPBatLeftHand.bounds,
                                           cornerRadius: btnPBatLeftHand.layer.cornerRadius).cgPath
         slBtnPBatLeftHand.fillColor = UIColor.white.cgColor
-        slBtnPBatLeftHand.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBatLeftHand.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBatLeftHand.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBatLeftHand.shadowOpacity = 0.8
         slBtnPBatLeftHand.shadowRadius = 2.8
@@ -166,7 +166,7 @@ class AddNewPlayerVC: UIViewController {
         slPBallView.path = UIBezierPath(roundedRect: pBallView.bounds,
                                           cornerRadius: pBallView.layer.cornerRadius).cgPath
         slPBallView.fillColor = UIColor.white.cgColor
-        slPBallView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slPBallView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slPBallView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slPBallView.shadowOpacity = 0.8
         slPBallView.shadowRadius = 2.8
@@ -177,7 +177,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBowRightArm.path = UIBezierPath(roundedRect: btnPBowRightArm.bounds,
                                           cornerRadius: btnPBowRightArm.layer.cornerRadius).cgPath
         slBtnPBowRightArm.fillColor = UIColor.white.cgColor
-        slBtnPBowRightArm.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBowRightArm.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBowRightArm.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBowRightArm.shadowOpacity = 0.8
         slBtnPBowRightArm.shadowRadius = 2.8
@@ -188,7 +188,7 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBowLeftArm.path = UIBezierPath(roundedRect: btnPBowLeftArm.bounds,
                                           cornerRadius: btnPBowLeftArm.layer.cornerRadius).cgPath
         slBtnPBowLeftArm.fillColor = UIColor.white.cgColor
-        slBtnPBowLeftArm.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnPBowLeftArm.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnPBowLeftArm.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnPBowLeftArm.shadowOpacity = 0.8
         slBtnPBowLeftArm.shadowRadius = 2.8
@@ -247,7 +247,7 @@ class AddNewPlayerVC: UIViewController {
     
     @IBAction func onClickBatsmanBtn(_ sender: Any) {
         btnPBatsman.backgroundColor = UIColor.white
-        btnPBatsman.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBatsman.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnPBowler.backgroundColor = UIColor.white
         btnPBowler.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -258,7 +258,7 @@ class AddNewPlayerVC: UIViewController {
     
     @IBAction func onClickBowlerBtn(_ sender: Any) {
         btnPBowler.backgroundColor = UIColor.white
-        btnPBowler.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBowler.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnPBatsman.backgroundColor = UIColor.white
         btnPBatsman.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -269,7 +269,7 @@ class AddNewPlayerVC: UIViewController {
     
     @IBAction func onClickAllRounderBtn(_ sender: Any) {
         btnPAllRounder.backgroundColor = UIColor.white
-        btnPAllRounder.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPAllRounder.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnPBatsman.backgroundColor = UIColor.white
         btnPBatsman.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -280,7 +280,7 @@ class AddNewPlayerVC: UIViewController {
     
     @IBAction func onClickRightHandedBatsmanBtn(_ sender: Any) {
         btnPBatRightHand.backgroundColor = UIColor.white
-        btnPBatRightHand.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBatRightHand.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnPBatLeftHand.backgroundColor = UIColor.white
         btnPBatLeftHand.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -291,12 +291,12 @@ class AddNewPlayerVC: UIViewController {
         btnPBatRightHand.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnPBatLeftHand.backgroundColor = UIColor.white
-        btnPBatLeftHand.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBatLeftHand.setTitleColor(UIColor.appThemeColor, for: .normal)
     }
         
     @IBAction func onClickRightArmBowlerBtn(_ sender: Any) {
         btnPBowRightArm.backgroundColor = UIColor.white
-        btnPBowRightArm.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBowRightArm.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnPBowLeftArm.backgroundColor = UIColor.white
         btnPBowLeftArm.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -307,14 +307,14 @@ class AddNewPlayerVC: UIViewController {
         btnPBowRightArm.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnPBowLeftArm.backgroundColor = UIColor.white
-        btnPBowLeftArm.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnPBowLeftArm.setTitleColor(UIColor.appThemeColor, for: .normal)
     }
     
     @IBAction func onSwipeToOnSwitch(_ sender: Any) {
         if wikiSwitch.isOn {
-            wikiSwitch.isOn = false
-        }else {
             wikiSwitch.isOn = true
+        }else {
+            wikiSwitch.isOn = false
         }
     }
     

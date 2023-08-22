@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hsh-jo-QgR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hsh-jo-QgR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -31,7 +31,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xao-Ox-n7r">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                <color key="backgroundColor" name="0B022F"/>
+                                <color key="backgroundColor" name="569CD8"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="AVz-CN-URn"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" name="0B022F"/>
+                                <color key="backgroundColor" name="569CD8"/>
                                 <constraints>
                                     <constraint firstItem="zCf-c1-XQQ" firstAttribute="centerX" secondItem="sOg-tj-wDn" secondAttribute="centerX" id="1zQ-nM-Rvt"/>
                                     <constraint firstAttribute="height" constant="52" id="7K2-kb-fsc"/>
@@ -108,11 +108,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstItem="aI2-jS-1bw" firstAttribute="leading" secondItem="vca-n0-Q3l" secondAttribute="leading" constant="5" id="DW4-0L-RcE"/>
                                                             <constraint firstAttribute="height" constant="24" id="cl3-ig-AC9"/>
@@ -169,11 +169,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="110" id="1bM-BU-4eu"/>
                                                             <constraint firstAttribute="trailing" secondItem="zeR-AM-Vy7" secondAttribute="trailing" constant="5" id="aGY-LN-idg"/>
@@ -230,11 +230,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstItem="19e-wW-oYT" firstAttribute="leading" secondItem="XWl-df-y8h" secondAttribute="leading" constant="5" id="EPj-Ed-4ch"/>
                                                             <constraint firstAttribute="trailing" secondItem="19e-wW-oYT" secondAttribute="trailing" constant="5" id="gAt-qe-9bn"/>
@@ -327,8 +327,8 @@
                                                                     <constraint firstAttribute="width" constant="47" id="AI6-nq-0x4"/>
                                                                     <constraint firstAttribute="height" constant="31" id="XIL-06-LZg"/>
                                                                 </constraints>
-                                                                <color key="onTintColor" name="0B022F"/>
-                                                                <color key="thumbTintColor" name="FF9922"/>
+                                                                <color key="onTintColor" name="569CD8"/>
+                                                                <color key="thumbTintColor" name="1192F1"/>
                                                                 <connections>
                                                                     <action selector="onSwipeToOnSwitch:" destination="Y6W-OH-hqX" eventType="valueChanged" id="eBl-w1-ZKL"/>
                                                                 </connections>
@@ -371,11 +371,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="BjD-gV-nMc"/>
                                                             <constraint firstAttribute="bottom" secondItem="E6r-kM-lzy" secondAttribute="bottom" constant="2" id="OIx-MZ-fht"/>
@@ -466,11 +466,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="110" id="CGA-s4-q0S"/>
                                                             <constraint firstItem="mdc-5W-t8y" firstAttribute="top" secondItem="9wK-go-eMl" secondAttribute="top" constant="2" id="MqE-D3-NQB"/>
@@ -561,11 +561,11 @@
                                                                 <rect key="frame" x="5" y="2" width="100" height="20"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
-                                                                <color key="textColor" name="0B022F"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" name="FF9922"/>
+                                                        <color key="backgroundColor" name="1192F1"/>
                                                         <constraints>
                                                             <constraint firstItem="vd7-Se-IlC" firstAttribute="top" secondItem="IFh-c8-zvw" secondAttribute="top" constant="2" id="1cF-nY-daN"/>
                                                             <constraint firstItem="vd7-Se-IlC" firstAttribute="leading" secondItem="IFh-c8-zvw" secondAttribute="leading" constant="5" id="4w6-N6-W8T"/>
@@ -593,7 +593,7 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJl-Fs-UYA">
                                                 <rect key="frame" x="107" y="786" width="200" height="50"/>
-                                                <color key="backgroundColor" name="0B022F"/>
+                                                <color key="backgroundColor" name="1192F1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="YKW-fl-Fkm"/>
                                                     <constraint firstAttribute="width" constant="200" id="gES-c4-3Bf"/>
@@ -719,11 +719,14 @@
         <namedColor name="0B022F">
             <color red="0.043137254901960784" green="0.0078431372549019607" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="1192F1">
+            <color red="0.066666666666666666" green="0.5725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="569CD8">
+            <color red="0.33700001239776611" green="0.6119999885559082" blue="0.84700000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="F3F3F3">
             <color red="0.95300000905990601" green="0.95300000905990601" blue="0.95300000905990601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="FF9922">
-            <color red="1" green="0.59999999999999998" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
