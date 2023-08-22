@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectPlayerCell" id="gTV-IL-0wX" customClass="SelectPlayerCell" customModule="DailyCric" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zP-3A-cqq">
+                        <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-NP-Ygb">
+                                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="White"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="2hD-ER-LpO"/>
+                            <constraint firstAttribute="width" constant="70" id="FX7-2a-MRF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darshan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6C5-PS-SU5">
+                        <rect key="frame" x="0.0" y="72" width="80" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="NjQ-gG-QUc"/>
+                            <constraint firstAttribute="width" constant="80" id="eNx-TV-aj6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" name="0B022F"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wk-Batsman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJ7-jk-ZMr">
+                        <rect key="frame" x="0.0" y="93" width="80" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="3K6-7H-yxi"/>
+                            <constraint firstAttribute="width" constant="80" id="XAk-Sb-h2q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="10"/>
+                        <color key="textColor" name="0B022F"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="F3F3F3"/>
+            <constraints>
+                <constraint firstItem="4zP-3A-cqq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4Dy-Uc-Dth"/>
+                <constraint firstAttribute="bottom" secondItem="HJ7-jk-ZMr" secondAttribute="bottom" constant="2" id="972-RI-khZ"/>
+                <constraint firstItem="4zP-3A-cqq" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Cdd-rX-Zjq"/>
+                <constraint firstItem="6C5-PS-SU5" firstAttribute="top" secondItem="4zP-3A-cqq" secondAttribute="bottom" constant="2" id="LIp-yg-mdc"/>
+                <constraint firstItem="6C5-PS-SU5" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="OGf-W6-ItA"/>
+                <constraint firstItem="HJ7-jk-ZMr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="YRn-bY-7ae"/>
+                <constraint firstItem="HJ7-jk-ZMr" firstAttribute="top" secondItem="6C5-PS-SU5" secondAttribute="bottom" constant="1" id="rEH-Pu-iIR"/>
+            </constraints>
+            <size key="customSize" width="96" height="99"/>
+            <connections>
+                <outlet property="backView" destination="4zP-3A-cqq" id="uMo-ZH-gaM"/>
+                <outlet property="lblPlayerName" destination="6C5-PS-SU5" id="eek-ue-ymt"/>
+                <outlet property="lblPlayerType" destination="HJ7-jk-ZMr" id="Fwp-jk-UYZ"/>
+                <outlet property="playerImg" destination="sbW-NP-Ygb" id="BAy-Vb-Pys"/>
+            </connections>
+            <point key="canvasLocation" x="165.21739130434784" y="126.22767857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ProfileIcon" width="32" height="32"/>
+        <namedColor name="0B022F">
+            <color red="0.043137254901960784" green="0.0078431372549019607" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F3F3F3">
+            <color red="0.95300000905990601" green="0.95300000905990601" blue="0.95300000905990601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

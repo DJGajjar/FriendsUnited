@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KjE-sF-kBI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Old Match-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="OldMatchViewController" customModule="DailyCric" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xat-E6-5W3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <color key="backgroundColor" name="0B022F"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Y11-ZD-is1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbh-Yl-Hjy">
+                                <rect key="frame" x="0.0" y="44" width="414" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujI-g7-0PE">
+                                        <rect key="frame" x="154.5" y="12" width="105" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="crE-QM-UMa"/>
+                                            <constraint firstAttribute="width" constant="105" id="tef-b6-ghz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="0B022F"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="MEM-R1-kkJ"/>
+                                    <constraint firstItem="ujI-g7-0PE" firstAttribute="centerX" secondItem="hbh-Yl-Hjy" secondAttribute="centerX" id="uNz-js-Egv"/>
+                                    <constraint firstItem="ujI-g7-0PE" firstAttribute="top" secondItem="hbh-Yl-Hjy" secondAttribute="top" constant="12" id="zhQ-kZ-yRW"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="83s-6a-S00">
+                                <rect key="frame" x="0.0" y="96" width="414" height="717"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="bC6-wZ-wP9"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="wJO-hI-Tos"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="83s-6a-S00" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="2S2-Wl-ZpI"/>
+                            <constraint firstItem="83s-6a-S00" firstAttribute="top" secondItem="hbh-Yl-Hjy" secondAttribute="bottom" id="Aut-zj-xGZ"/>
+                            <constraint firstItem="Xat-E6-5W3" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="GPj-qq-7yd"/>
+                            <constraint firstItem="hbh-Yl-Hjy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Is0-kh-1IF"/>
+                            <constraint firstItem="83s-6a-S00" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Jh5-1u-LtR"/>
+                            <constraint firstItem="hbh-Yl-Hjy" firstAttribute="top" secondItem="Xat-E6-5W3" secondAttribute="bottom" id="Jqg-Us-nb0"/>
+                            <constraint firstAttribute="trailing" secondItem="Xat-E6-5W3" secondAttribute="trailing" id="Jvr-iR-YKs"/>
+                            <constraint firstItem="83s-6a-S00" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="hlt-Gz-N0G"/>
+                            <constraint firstItem="hbh-Yl-Hjy" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="jdP-uR-NMw"/>
+                            <constraint firstItem="Xat-E6-5W3" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="o7A-aI-0QS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Old Match" id="uUi-Is-N2C"/>
+                    <navigationItem key="navigationItem" id="DQg-h4-2j9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tblOldMatchList" destination="83s-6a-S00" id="zN4-nm-egI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="99.776785714285708"/>
+        </scene>
+        <!--Old Match-->
+        <scene sceneID="qFD-Ef-PoH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="KjE-sF-kBI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Old Match" image="OldMatch" selectedImage="OldMatch" id="ywl-DH-5OS"/>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qmS-uS-H5C">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="9gP-lR-Nt3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auc-bK-DWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="OldMatch" width="30" height="30"/>
+        <namedColor name="0B022F">
+            <color red="0.043137254901960784" green="0.0078431372549019607" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

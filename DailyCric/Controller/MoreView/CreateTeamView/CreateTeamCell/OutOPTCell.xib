@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OutOPTCell" id="gTV-IL-0wX" customClass="OutOPTCell" customModule="DailyCric" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="112"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bef-pQ-O4w">
+                        <rect key="frame" x="5" y="0.0" width="70" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="yUg-FE-6zK">
+                                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Check" translatesAutoresizingMaskIntoConstraints="NO" id="zn1-sM-TrS">
+                                <rect key="frame" x="25" y="25" width="20" height="20"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="White"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zn1-sM-TrS" secondAttribute="bottom" constant="25" id="11D-6M-rX3"/>
+                            <constraint firstItem="zn1-sM-TrS" firstAttribute="top" secondItem="bef-pQ-O4w" secondAttribute="top" constant="25" id="EyE-9G-vjU"/>
+                            <constraint firstAttribute="height" constant="70" id="FmP-tH-EAO"/>
+                            <constraint firstAttribute="width" constant="70" id="Jpv-Wy-qff"/>
+                            <constraint firstItem="zn1-sM-TrS" firstAttribute="leading" secondItem="bef-pQ-O4w" secondAttribute="leading" constant="25" id="bQ9-HR-4Cb"/>
+                            <constraint firstAttribute="trailing" secondItem="zn1-sM-TrS" secondAttribute="trailing" constant="25" id="gLm-Sa-SH5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caught Behind" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqx-DR-FOW">
+                        <rect key="frame" x="0.0" y="72" width="80" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="KWA-t7-RwI"/>
+                            <constraint firstAttribute="width" constant="80" id="uu6-7x-lv3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" name="0B022F"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="F3F3F3"/>
+            <constraints>
+                <constraint firstItem="Hqx-DR-FOW" firstAttribute="top" secondItem="bef-pQ-O4w" secondAttribute="bottom" constant="2" id="BUF-ai-ABm"/>
+                <constraint firstItem="bef-pQ-O4w" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="cXt-lz-nRp"/>
+                <constraint firstItem="Hqx-DR-FOW" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fSA-9l-Xue"/>
+                <constraint firstItem="bef-pQ-O4w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wTx-sM-bTl"/>
+            </constraints>
+            <size key="customSize" width="50" height="112"/>
+            <connections>
+                <outlet property="backView" destination="bef-pQ-O4w" id="6ha-Fn-mTT"/>
+                <outlet property="lblOutOPT" destination="Hqx-DR-FOW" id="e3n-sD-mX5"/>
+                <outlet property="outOPTImg" destination="yUg-FE-6zK" id="KxT-o5-zpK"/>
+                <outlet property="selectOutImg" destination="zn1-sM-TrS" id="SUA-Oc-dxN"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Check" width="20" height="20"/>
+        <image name="ProfileIcon" width="32" height="32"/>
+        <namedColor name="0B022F">
+            <color red="0.043137254901960784" green="0.0078431372549019607" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F3F3F3">
+            <color red="0.95300000905990601" green="0.95300000905990601" blue="0.95300000905990601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
