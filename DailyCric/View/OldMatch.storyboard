@@ -52,7 +52,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="83s-6a-S00">
-                                <rect key="frame" x="0.0" y="96" width="414" height="717"/>
+                                <rect key="frame" x="0.0" y="96" width="414" height="700"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Y6W-OH-hqX" id="bC6-wZ-wP9"/>
@@ -70,7 +70,7 @@
                             <constraint firstItem="83s-6a-S00" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Jh5-1u-LtR"/>
                             <constraint firstItem="hbh-Yl-Hjy" firstAttribute="top" secondItem="Xat-E6-5W3" secondAttribute="bottom" id="Jqg-Us-nb0"/>
                             <constraint firstAttribute="trailing" secondItem="Xat-E6-5W3" secondAttribute="trailing" id="Jvr-iR-YKs"/>
-                            <constraint firstItem="83s-6a-S00" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="hlt-Gz-N0G"/>
+                            <constraint firstItem="83s-6a-S00" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="-17" id="hlt-Gz-N0G"/>
                             <constraint firstItem="hbh-Yl-Hjy" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="jdP-uR-NMw"/>
                             <constraint firstItem="Xat-E6-5W3" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="o7A-aI-0QS"/>
                         </constraints>

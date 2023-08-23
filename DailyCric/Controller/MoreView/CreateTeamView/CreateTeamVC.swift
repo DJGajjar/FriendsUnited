@@ -38,10 +38,10 @@ class CreateTeamVC: UIViewController {
         
         let slTeam1View = CAShapeLayer()
         team1View.layer.cornerRadius = 10
-        slTeam1View.path = UIBezierPath(roundedRect: team1View.bounds,
+        slTeam1View.path = UIBezierPath(roundedRect: CGRect(x: 0, y: team1View.bounds.minY, width: team1View.bounds.width - 20, height: 50),
                                       cornerRadius: team1View.layer.cornerRadius).cgPath
         slTeam1View.fillColor = UIColor.white.cgColor
-        slTeam1View.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slTeam1View.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slTeam1View.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slTeam1View.shadowOpacity = 0.8
         slTeam1View.shadowRadius = 2.8
@@ -49,10 +49,10 @@ class CreateTeamVC: UIViewController {
         
         let slTeam2View = CAShapeLayer()
         team2View.layer.cornerRadius = 10
-        slTeam2View.path = UIBezierPath(roundedRect: team2View.bounds,
+        slTeam2View.path = UIBezierPath(roundedRect: CGRect(x: 0, y: team2View.bounds.minY, width: team2View.bounds.width - 20, height: 50),
                                       cornerRadius: team2View.layer.cornerRadius).cgPath
         slTeam2View.fillColor = UIColor.white.cgColor
-        slTeam2View.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slTeam2View.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slTeam2View.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slTeam2View.shadowOpacity = 0.8
         slTeam2View.shadowRadius = 2.8
@@ -60,10 +60,10 @@ class CreateTeamVC: UIViewController {
         
         let slCaptain1View = CAShapeLayer()
         captain1View.layer.cornerRadius = 10
-        slCaptain1View.path = UIBezierPath(roundedRect: captain1View.bounds,
+        slCaptain1View.path = UIBezierPath(roundedRect: CGRect(x: 0, y: captain1View.bounds.minY, width: captain1View.bounds.width - 20, height: 50),
                                       cornerRadius: captain1View.layer.cornerRadius).cgPath
         slCaptain1View.fillColor = UIColor.white.cgColor
-        slCaptain1View.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slCaptain1View.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slCaptain1View.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slCaptain1View.shadowOpacity = 0.8
         slCaptain1View.shadowRadius = 2.8
@@ -71,10 +71,10 @@ class CreateTeamVC: UIViewController {
         
         let slCaptain2View = CAShapeLayer()
         captain2View.layer.cornerRadius = 10
-        slCaptain2View.path = UIBezierPath(roundedRect: captain2View.bounds,
+        slCaptain2View.path = UIBezierPath(roundedRect: CGRect(x: 0, y: captain2View.bounds.minY, width: captain2View.bounds.width - 20, height: 50),
                                       cornerRadius: captain2View.layer.cornerRadius).cgPath
         slCaptain2View.fillColor = UIColor.white.cgColor
-        slCaptain2View.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slCaptain2View.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slCaptain2View.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slCaptain2View.shadowOpacity = 0.8
         slCaptain2View.shadowRadius = 2.8
@@ -82,10 +82,10 @@ class CreateTeamVC: UIViewController {
            
         let slBattingTossView = CAShapeLayer()
         battingTossView.layer.cornerRadius = 10
-        slBattingTossView.path = UIBezierPath(roundedRect: battingTossView.bounds,
+        slBattingTossView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: battingTossView.bounds.minY, width: battingTossView.bounds.width - 20, height: 80),
                                       cornerRadius: battingTossView.layer.cornerRadius).cgPath
         slBattingTossView.fillColor = UIColor.white.cgColor
-        slBattingTossView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBattingTossView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBattingTossView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBattingTossView.shadowOpacity = 0.8
         slBattingTossView.shadowRadius = 2.8
@@ -93,10 +93,10 @@ class CreateTeamVC: UIViewController {
         
         let slBowlingTossView = CAShapeLayer()
         bowlingTossView.layer.cornerRadius = 10
-        slBowlingTossView.path = UIBezierPath(roundedRect: bowlingTossView.bounds,
+        slBowlingTossView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: bowlingTossView.bounds.minY, width: bowlingTossView.bounds.width - 20, height: 80),
                                       cornerRadius: bowlingTossView.layer.cornerRadius).cgPath
         slBowlingTossView.fillColor = UIColor.white.cgColor
-        slBowlingTossView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBowlingTossView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBowlingTossView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBowlingTossView.shadowOpacity = 0.8
         slBowlingTossView.shadowRadius = 2.8
@@ -104,10 +104,10 @@ class CreateTeamVC: UIViewController {
                
         let slChooseView = CAShapeLayer()
         chooseView.layer.cornerRadius = 10
-        slChooseView.path = UIBezierPath(roundedRect: chooseView.bounds,
+        slChooseView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: chooseView.bounds.minY, width: chooseView.bounds.width - 20, height: 130),
                                       cornerRadius: chooseView.layer.cornerRadius).cgPath
         slChooseView.fillColor = UIColor.white.cgColor
-        slChooseView.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slChooseView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slChooseView.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slChooseView.shadowOpacity = 0.8
         slChooseView.shadowRadius = 2.8
@@ -118,7 +118,7 @@ class CreateTeamVC: UIViewController {
         slBtnBattingTeam1.path = UIBezierPath(roundedRect: btnBattingTeam1.bounds,
                                       cornerRadius: btnBattingTeam1.layer.cornerRadius).cgPath
         slBtnBattingTeam1.fillColor = UIColor.white.cgColor
-        slBtnBattingTeam1.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnBattingTeam1.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnBattingTeam1.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnBattingTeam1.shadowOpacity = 0.8
         slBtnBattingTeam1.shadowRadius = 2.8
@@ -129,7 +129,7 @@ class CreateTeamVC: UIViewController {
         slBtnBattingTeam2.path = UIBezierPath(roundedRect: btnBattingTeam2.bounds,
                                       cornerRadius: btnBattingTeam2.layer.cornerRadius).cgPath
         slBtnBattingTeam2.fillColor = UIColor.white.cgColor
-        slBtnBattingTeam2.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnBattingTeam2.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnBattingTeam2.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnBattingTeam2.shadowOpacity = 0.8
         slBtnBattingTeam2.shadowRadius = 2.8
@@ -140,7 +140,7 @@ class CreateTeamVC: UIViewController {
         slBtnBowlingTeam1.path = UIBezierPath(roundedRect: btnBowlingTeam1.bounds,
                                       cornerRadius: btnBowlingTeam1.layer.cornerRadius).cgPath
         slBtnBowlingTeam1.fillColor = UIColor.white.cgColor
-        slBtnBowlingTeam1.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnBowlingTeam1.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnBowlingTeam1.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnBowlingTeam1.shadowOpacity = 0.8
         slBtnBowlingTeam1.shadowRadius = 2.8
@@ -151,7 +151,7 @@ class CreateTeamVC: UIViewController {
         slBtnBowlingTeam2.path = UIBezierPath(roundedRect: btnBowlingTeam2.bounds,
                                       cornerRadius: btnBowlingTeam2.layer.cornerRadius).cgPath
         slBtnBowlingTeam2.fillColor = UIColor.white.cgColor
-        slBtnBowlingTeam2.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnBowlingTeam2.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnBowlingTeam2.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnBowlingTeam2.shadowOpacity = 0.8
         slBtnBowlingTeam2.shadowRadius = 2.8
@@ -164,7 +164,7 @@ class CreateTeamVC: UIViewController {
         slBtnTeam1Batting.path = UIBezierPath(roundedRect: btnTeam1Batting.bounds,
                                       cornerRadius: btnTeam1Batting.layer.cornerRadius).cgPath
         slBtnTeam1Batting.fillColor = UIColor.white.cgColor
-        slBtnTeam1Batting.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnTeam1Batting.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnTeam1Batting.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnTeam1Batting.shadowOpacity = 0.8
         slBtnTeam1Batting.shadowRadius = 2.8
@@ -175,7 +175,7 @@ class CreateTeamVC: UIViewController {
         slBtnTeam1Bowling.path = UIBezierPath(roundedRect: btnTeam1Bowling.bounds,
                                       cornerRadius: btnTeam1Bowling.layer.cornerRadius).cgPath
         slBtnTeam1Bowling.fillColor = UIColor.white.cgColor
-        slBtnTeam1Bowling.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnTeam1Bowling.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnTeam1Bowling.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnTeam1Bowling.shadowOpacity = 0.8
         slBtnTeam1Bowling.shadowRadius = 2.8
@@ -186,7 +186,7 @@ class CreateTeamVC: UIViewController {
         slBtnTeam2Bowling.path = UIBezierPath(roundedRect: btnTeam2Bowling.bounds,
                                       cornerRadius: btnTeam2Bowling.layer.cornerRadius).cgPath
         slBtnTeam2Bowling.fillColor = UIColor.white.cgColor
-        slBtnTeam2Bowling.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnTeam2Bowling.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnTeam2Bowling.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnTeam2Bowling.shadowOpacity = 0.8
         slBtnTeam2Bowling.shadowRadius = 2.8
@@ -197,7 +197,7 @@ class CreateTeamVC: UIViewController {
         slBtnTeam2Batting.path = UIBezierPath(roundedRect: btnTeam2Batting.bounds,
                                       cornerRadius: btnTeam2Batting.layer.cornerRadius).cgPath
         slBtnTeam2Batting.fillColor = UIColor.white.cgColor
-        slBtnTeam2Batting.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        slBtnTeam2Batting.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
         slBtnTeam2Batting.shadowOffset = CGSize(width: 2.0, height: 2.0)
         slBtnTeam2Batting.shadowOpacity = 0.8
         slBtnTeam2Batting.shadowRadius = 2.8
@@ -206,7 +206,7 @@ class CreateTeamVC: UIViewController {
     
     @IBAction func onClickBattingTossTeam1Btn(_ sender: Any) {
         btnBattingTeam1.backgroundColor = UIColor.white
-        btnBattingTeam1.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnBattingTeam1.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnBattingTeam2.backgroundColor = UIColor.white
         btnBattingTeam2.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -217,12 +217,12 @@ class CreateTeamVC: UIViewController {
         btnBattingTeam1.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnBattingTeam2.backgroundColor = UIColor.white
-        btnBattingTeam2.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnBattingTeam2.setTitleColor(UIColor.appThemeColor, for: .normal)
     }
     
     @IBAction func onClickBowlingTossTeam1Btn(_ sender: Any) {
         btnBowlingTeam1.backgroundColor = UIColor.white
-        btnBowlingTeam1.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnBowlingTeam1.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnBowlingTeam2.backgroundColor = UIColor.white
         btnBowlingTeam2.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -233,12 +233,12 @@ class CreateTeamVC: UIViewController {
         btnBowlingTeam1.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnBowlingTeam2.backgroundColor = UIColor.white
-        btnBowlingTeam2.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnBowlingTeam2.setTitleColor(UIColor.appThemeColor, for: .normal)
     }
     
     @IBAction func onClickOTPTeam1BattingBtn(_ sender: Any) {
         btnTeam1Batting.backgroundColor = UIColor.white
-        btnTeam1Batting.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam1Batting.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam1Bowling.backgroundColor = UIColor.white
         btnTeam1Bowling.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -247,7 +247,7 @@ class CreateTeamVC: UIViewController {
         btnTeam2Batting.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnTeam2Bowling.backgroundColor = UIColor.white
-        btnTeam2Bowling.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam2Bowling.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         isTeamSelect = true
         
@@ -260,10 +260,10 @@ class CreateTeamVC: UIViewController {
         btnTeam1Batting.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnTeam1Bowling.backgroundColor = UIColor.white
-        btnTeam1Bowling.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam1Bowling.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam2Batting.backgroundColor = UIColor.white
-        btnTeam2Batting.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam2Batting.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam2Bowling.backgroundColor = UIColor.white
         btnTeam2Bowling.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -276,7 +276,7 @@ class CreateTeamVC: UIViewController {
     
     @IBAction func onClickOTPTeam2BattingBtn(_ sender: Any) {
         btnTeam2Batting.backgroundColor = UIColor.white
-        btnTeam2Batting.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam2Batting.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam2Bowling.backgroundColor = UIColor.white
         btnTeam2Bowling.setTitleColor(UIColor.appNavColor, for: .normal)
@@ -285,7 +285,7 @@ class CreateTeamVC: UIViewController {
         btnTeam1Batting.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnTeam1Bowling.backgroundColor = UIColor.white
-        btnTeam1Bowling.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam1Bowling.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         isTeamSelect = true
         
@@ -298,10 +298,10 @@ class CreateTeamVC: UIViewController {
         btnTeam2Batting.setTitleColor(UIColor.appNavColor, for: .normal)
         
         btnTeam2Bowling.backgroundColor = UIColor.white
-        btnTeam2Bowling.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam2Bowling.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam1Batting.backgroundColor = UIColor.white
-        btnTeam1Batting.setTitleColor(UIColor.appIconColor, for: .normal)
+        btnTeam1Batting.setTitleColor(UIColor.appThemeColor, for: .normal)
         
         btnTeam1Bowling.backgroundColor = UIColor.white
         btnTeam1Bowling.setTitleColor(UIColor.appNavColor, for: .normal)

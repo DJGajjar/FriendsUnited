@@ -60,13 +60,13 @@ class ScoreBoardVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         scoreBoardView.layer.shadowOffset = .zero
         scoreBoardView.layer.shadowRadius = 2.8
         
-        batsmanView.layer.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        batsmanView.layer.shadowColor = #colorLiteral(red: 0.337254902, green: 0.6117647059, blue: 0.8470588235, alpha: 1)
         batsmanView.layer.shadowOpacity = 0.8
         batsmanView.layer.shadowOffset = .zero
         batsmanView.layer.shadowRadius = 2.8
         batsmanView.layer.cornerRadius = 10.0
         
-        bowlerView.layer.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        bowlerView.layer.shadowColor = #colorLiteral(red: 0.337254902, green: 0.6117647059, blue: 0.8470588235, alpha: 1)
         bowlerView.layer.shadowOpacity = 0.8
         bowlerView.layer.shadowOffset = .zero
         bowlerView.layer.shadowRadius = 2.8
@@ -79,7 +79,7 @@ class ScoreBoardVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         runBoardView.layer.cornerRadius = 10.0
                 
         let strOverCount = String(format: "(14.5/16)")
-        let atbStringOne = [NSAttributedString.Key.font : UIFont(name: "OpenSans-Regular", size: 40), NSAttributedString.Key.foregroundColor : UIColor.appNavColor]
+        let atbStringOne = [NSAttributedString.Key.font : UIFont(name: "OpenSans-Regular", size: 40), NSAttributedString.Key.foregroundColor : UIColor.white]
         let atbStringTwo = [NSAttributedString.Key.font : UIFont(name: "OpenSans-SemiBold", size: 14), NSAttributedString.Key.foregroundColor : UIColor.appNavColor]
         let attributedStringOne = NSMutableAttributedString(string: "85/5", attributes:atbStringOne as [NSAttributedString.Key : Any])
         let attributedStringTwo = NSMutableAttributedString(string: strOverCount, attributes:atbStringTwo as [NSAttributedString.Key : Any])

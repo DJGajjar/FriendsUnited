@@ -102,7 +102,7 @@ class MatchListCell: UITableViewCell {
         line_2View.layer.shadowRadius = 2.8
                 
         backView.layer.borderWidth = 0.5
-        backView.layer.borderColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        backView.layer.borderColor = #colorLiteral(red: 0.337254902, green: 0.6117647059, blue: 0.8470588235, alpha: 1)
             
         let strOverCount = String(format: "(16.0 ov)")
         let atbStringOne = [NSAttributedString.Key.font : UIFont(name: "OpenSans-Regular", size: 14), NSAttributedString.Key.foregroundColor : UIColor.black]

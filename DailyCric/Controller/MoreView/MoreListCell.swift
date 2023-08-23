@@ -26,7 +26,7 @@ class MoreListCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         
-        backView.layer.shadowColor = #colorLiteral(red: 1, green: 0.6, blue: 0.1333333333, alpha: 1)
+        backView.layer.shadowColor = #colorLiteral(red: 0.337254902, green: 0.6117647059, blue: 0.8470588235, alpha: 1)
         backView.layer.shadowOpacity = 0.8
         backView.layer.shadowOffset = .zero
         backView.layer.shadowRadius = 2.8

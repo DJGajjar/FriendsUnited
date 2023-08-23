@@ -53,7 +53,7 @@ class AddNewPlayerVC: UIViewController {
         
         let slPNameView = CAShapeLayer()
         pNameView.layer.cornerRadius = 6
-        slPNameView.path = UIBezierPath(roundedRect: pNameView.bounds,
+        slPNameView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pNameView.bounds.minY, width: pNameView.bounds.width - 20, height: 50),
                                       cornerRadius: pNameView.layer.cornerRadius).cgPath
         slPNameView.fillColor = UIColor.white.cgColor
         slPNameView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
@@ -64,7 +64,7 @@ class AddNewPlayerVC: UIViewController {
         
         let slPNickNameView = CAShapeLayer()
         pNickNameView.layer.cornerRadius = 6
-        slPNickNameView.path = UIBezierPath(roundedRect: pNickNameView.bounds,
+        slPNickNameView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pNameView.bounds.minY, width: pNameView.bounds.width - 20, height: 50),
                                       cornerRadius: pNickNameView.layer.cornerRadius).cgPath
         slPNickNameView.fillColor = UIColor.white.cgColor
         slPNickNameView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
@@ -75,7 +75,7 @@ class AddNewPlayerVC: UIViewController {
         
         let slPBirthDayView = CAShapeLayer()
         pBirthDayView.layer.cornerRadius = 6
-        slPBirthDayView.path = UIBezierPath(roundedRect: pBirthDayView.bounds,
+        slPBirthDayView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pBirthDayView.bounds.minY, width: pBirthDayView.bounds.width - 20, height: 50),
                                       cornerRadius: pBirthDayView.layer.cornerRadius).cgPath
         slPBirthDayView.fillColor = UIColor.white.cgColor
         slPBirthDayView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
@@ -86,7 +86,7 @@ class AddNewPlayerVC: UIViewController {
                                     
         let slPTypeView = CAShapeLayer()
         pTypeView.layer.cornerRadius = 6
-        slPTypeView.path = UIBezierPath(roundedRect: pTypeView.bounds,
+        slPTypeView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pTypeView.bounds.minY, width: pTypeView.bounds.width - 20, height: 100),
                                       cornerRadius: pTypeView.layer.cornerRadius).cgPath
         slPTypeView.fillColor = UIColor.white.cgColor
         slPTypeView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
@@ -130,7 +130,7 @@ class AddNewPlayerVC: UIViewController {
         
         let slPBatView = CAShapeLayer()
         pBatView.layer.cornerRadius = 6
-        slPBatView.path = UIBezierPath(roundedRect: pBatView.bounds,
+        slPBatView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pBatView.bounds.minY, width: pBatView.bounds.width - 20, height: 80),
                                           cornerRadius: pBatView.layer.cornerRadius).cgPath
         slPBatView.fillColor = UIColor.white.cgColor
         slPBatView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)
@@ -160,10 +160,10 @@ class AddNewPlayerVC: UIViewController {
         slBtnPBatLeftHand.shadowOpacity = 0.8
         slBtnPBatLeftHand.shadowRadius = 2.8
         btnPBatLeftHand.layer.insertSublayer(slBtnPBatLeftHand, at: 0)
-                
+        
         let slPBallView = CAShapeLayer()
         pBallView.layer.cornerRadius = 6
-        slPBallView.path = UIBezierPath(roundedRect: pBallView.bounds,
+        slPBallView.path = UIBezierPath(roundedRect: CGRect(x: 0, y: pBallView.bounds.minY, width: pBallView.bounds.width - 20, height: 80),
                                           cornerRadius: pBallView.layer.cornerRadius).cgPath
         slPBallView.fillColor = UIColor.white.cgColor
         slPBallView.shadowColor = #colorLiteral(red: 0.1098039216, green: 0.1215686275, blue: 0.2392156863, alpha: 1)

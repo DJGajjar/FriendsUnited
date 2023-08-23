@@ -32,7 +32,6 @@ class MatchInfoVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
         self.tblMatchInfo.register(UINib(nibName: "TeamNameCell", bundle: nil), forCellReuseIdentifier: "TeamNameCell")
         self.tblMatchInfo.register(UINib(nibName: "InfoHeaderCell", bundle: nil), forCellReuseIdentifier: "InfoHeaderCell")
         self.tblMatchInfo.register(UINib(nibName: "InfoDetailCell", bundle: nil), forCellReuseIdentifier: "InfoDetailCell")
@@ -67,20 +66,20 @@ extension MatchInfoVC : UITableViewDelegate, UITableViewDataSource, TeamNameCell
          
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let infoHeaderCell = tableView.dequeueReusableCell(withIdentifier: "InfoHeaderCell") as! InfoHeaderCell
-        
+
         if section == 0 {
             infoHeaderCell.lblInfoTitle.text = "SQUADS"
         }else {
             infoHeaderCell.lblInfoTitle.text = "INFO"
         }
-        
+
         return infoHeaderCell
-        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 30
     }
